@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #4E2A84;
+    height:100%;
+}
+
+#navbar{
+    width: 100%;
+    background-color: rgba(78,42,132,0.8);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    padding-top: 20px;
+    margin-top: 0;
+    transition: height 0.3s ease-in-out,background-color 0.5s, font-size 0.5s;
+    background-position: fixed;
+    z-index:1000;
+    position: fixed;
+}
+#navbar.compressed {
+    height: 100px; 
+    padding-top: 0px;
+    margin-top: 0;
+    background-color: #4E2A84;
+}
+
+.timestamp{
+    padding-left: 90%;
+    float: right;
+    height:70px;
+    position:fixed;
+    color:white;
+}
+
+
+.icon{
+    width: cover;
+    float: left;
+    height:100px;
+    position:fixed;
+}
+
+#logo {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times;
+    padding-left: 50px;
+    float: left;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+#logo.compressed{
+    font-size: 40px;
+}
+
+#realtime{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Times New Roman', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left:30px;
+    float: left;
+    margin: 0;
+    padding-top: 90px;
+    position:fixed;
+    display: flex;
+    transition: font-size 0.5s,padding-top 0.3s;
+}
+
+#digitalClock {
+    font-size: 20px;
+    padding-top: 22px;
+    padding-left: 210px;
+    color: #FFFFFF;
+    display: flex;
+    transition: font-size 0.5s,padding-top 0.3s,padding-left 0.3s;
+}
+
+#navbar.compressed #realtime{
+    font-size: 15px;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+#navbar.compressed #digitalClock{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left:160px;
+}
+
+.cover_img {
+    padding-top: 300px;
+    width: 100%; 
+    height: 500px; 
+    background-image: url('PBG.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 50px;
+}
+.sth{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.content{
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    align-items: center;
+    margin-bottom: 400px;
+
+
+}
+.Live{
+    color:white;
+    font-size: 30px;
+    display: flex;
+}
+.section_log{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex:50%;
+    height: 100%;
+    padding-bottom: 300px;
+}
+
+.section_image{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    flex:50%;
+    height: 100%;
+    padding-bottom: 300px;
+}
+
+#btnWS{
+    background-color: 	#CBC3E3;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-sizing: border-box;
+    width:200px;
+    height:50px;
+    border:0%;
+    cursor: pointer;
+    color: #9400d3;
+}
+#btnWS:hover {background-color: #CF9FFF}
+#btnWS:active {
+    background-color: #CF9FFF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#footer {
+    background-color: white; 
+    text-align: center;
+    padding: 10px 0;
+    height:80px;
+}
+
+.ece-logos img {
+    max-width: 500px;
+    margin: 0 20px;
+}
+
