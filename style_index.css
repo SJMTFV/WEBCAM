@@ -9,14 +9,22 @@
 }
 
 #navbar{
-    width: 100%; /* Adjust as needed */
-    height: 10vh; /* Full height */
+    width: 100%; 
+    height: 150px;
     position: fixed;
     left: 0;
     top: 0;
     background-color:rgba(78,42,132,0.8); /* Example color */
     align-items: center;
     padding-top: 20px;
+    transition: height 0.3s ease-in-out,background-color 0.5s, font-size 0.5s;
+}
+
+#navbar.compressed {
+    height: 100px; 
+    padding-top: 0px;
+    margin-top: 0;
+    background-color: #4E2A84;
 }
 
 .icon{
@@ -49,6 +57,7 @@
 .content {
     display: flex;
     align-items: start;
+    flex-direction: column;
 
 }
 

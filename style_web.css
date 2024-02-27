@@ -44,6 +44,17 @@
     position:fixed;
 }
 
+#back{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Times New Roman', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left:150px;
+    float: left;
+    margin-left: 900px;
+    padding-top: 0;
+    display:flex;
+}
+
 #logo {
     color: #FFFFFF;
     font-family: 'Times New Roman', Times;
@@ -52,6 +63,7 @@
     padding-top: 10px;
     text-decoration: none;
     font-size: 50px;
+    transition: font-size 0.3s ease-in-out;
 }
 
 
@@ -74,9 +86,10 @@
 
 #digitalClock {
     font-size: 20px;
-    padding-top: 22px;
-    padding-left: 210px;
+    padding-top: 90px;
+    padding-left:200px;
     color: #FFFFFF;
+    position:fixed;
     display: flex;
     transition: font-size 0.5s,padding-top 0.3s,padding-left 0.3s;
 }
@@ -89,7 +102,7 @@
 
 #navbar.compressed #digitalClock{
     font-size: 15px;
-    padding-top: 15px;
+    padding-top: 70px;
     padding-left:160px;
 }
 
@@ -102,6 +115,17 @@
     background-position: center; 
     margin-bottom: 50px;
 }
+
+#info_img {
+    padding-top: 300px;
+    width: 100%; 
+    height: 500px; 
+    background-image: url('info.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 50px;
+}
+
 .sth{
     color: #FFFFFF;
     font-size: 60px;
@@ -109,9 +133,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
+
 
 .content{
     font-size: 40px;
@@ -119,7 +144,7 @@
     flex-direction: column;
     color:#FFFFFF;
     align-items: center;
-    margin-bottom: 400px;
+    margin-bottom: 100px;
 
 
 }
@@ -132,6 +157,7 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    align-items: center;
     flex:50%;
     height: 100%;
     padding-bottom: 300px;
@@ -169,10 +195,50 @@
     text-align: center;
     padding: 10px 0;
     height:80px;
+    margin-top: 30px;
 }
 
 .ece-logos img {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 20px;
 }
 
+#Yuxin{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    flex:50%;
+    margin-bottom: 200px;
+}
+#Hanbang{
+    display:flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 50%;
+    margin-bottom: 200px;
+}
+#Yuxin h1,
+#Hanbang h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#Yuxin p,
+#Hanbang p{
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.description{
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 15%;
+    text-indent: 50px;
+}
